@@ -7,7 +7,8 @@
     "mypackage": "./index.js"
   },
   "scripts": {
-    "mypackage": "node index.js"
+    "mypackage": "node index.js",
+    "postinstall": "node ./init.js"
   },
   "dependencies": {
     "yargs":"17.7.1",
