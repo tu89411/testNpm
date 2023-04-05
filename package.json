@@ -1,0 +1,17 @@
+{
+  "name": "testnpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "mypackage": "./index.js"
+  },
+  "scripts": {
+    "mypackage": "node index.js"
+  },
+  "dependencies": {
+    "yargs":"17.7.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
